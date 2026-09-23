@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Sistema de Convivencia Escolar</title>
+
+  <meta property="og:title"
+        content="Sistema de Convivencia Escolar">
+
+  <meta property="og:description"
+        content="Institución Educativa Jorge Isaacs">
+
+  <meta property="og:image"
+        content="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png">
+
+  <meta property="og:type"
+        content="website">
+
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+</head>
+
+<body>
+
+  <img
+    src="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png"
+    width="180">
+
+  <h1>Sistema de Convivencia Escolar</h1>
+
+  <p>Institución Educativa Jorge Isaacs</p>
+
+  <a href="https://script.google.com/macros/s/AKfycbwgIgpOzg2tQPPUOUQIyhmKgBsFBXnlqhFIcfINtdiibkWQfWMnFTBfnu6l8Sisx2eD/exec">
+    Ingresar a la plataforma
+  </a>
+
+</body>
+</html>
