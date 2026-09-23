@@ -2,39 +2,212 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Sistema de Convivencia Escolar</title>
 
-  <meta property="og:title"
-        content="Sistema de Convivencia Escolar">
+  <meta
+    name="description"
+    content="Sistema Institucional de Convivencia Escolar - Institución Educativa Jorge Isaacs"
+  >
 
-  <meta property="og:description"
-        content="Institución Educativa Jorge Isaacs">
+  <!-- Vista previa para WhatsApp y redes -->
+  <meta property="og:title" content="Sistema de Convivencia Escolar">
+  <meta property="og:description" content="Institución Educativa Jorge Isaacs">
+  <meta
+    property="og:image"
+    content="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png"
+  >
+  <meta property="og:type" content="website">
 
-  <meta property="og:image"
-        content="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sistema de Convivencia Escolar">
+  <meta name="twitter:description" content="Institución Educativa Jorge Isaacs">
+  <meta
+    name="twitter:image"
+    content="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png"
+  >
 
-  <meta property="og:type"
-        content="website">
+  <link
+    rel="icon"
+    href="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png"
+  >
 
-  <meta name="twitter:card"
-        content="summary_large_image">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    html,
+    body {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+
+      font-family: Arial, Helvetica, sans-serif;
+      color: #eef6ff;
+
+      background:
+        radial-gradient(
+          circle at top left,
+          rgba(48, 183, 255, 0.18),
+          transparent 35%
+        ),
+        linear-gradient(
+          145deg,
+          #050b14,
+          #07111f
+        );
+    }
+
+    .tarjeta {
+      width: min(430px, 100%);
+      padding: 32px 30px;
+
+      text-align: center;
+
+      background: rgba(13, 27, 45, 0.96);
+      border: 1px solid #244563;
+      border-radius: 22px;
+
+      box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.38);
+    }
+
+    .logo {
+      display: block;
+
+      width: 190px;
+      height: 190px;
+
+      margin: 0 auto 22px;
+
+      object-fit: contain;
+
+      filter:
+        drop-shadow(0 8px 18px rgba(0, 0, 0, 0.30));
+    }
+
+    h1 {
+      margin: 0 0 12px;
+
+      font-size: 30px;
+      line-height: 1.15;
+
+      color: #ffffff;
+    }
+
+    .institucion {
+      margin: 0 0 28px;
+
+      color: #9fb5ca;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .boton {
+      display: block;
+
+      width: 100%;
+
+      padding: 15px 20px;
+
+      border-radius: 12px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #087db8,
+          #0b97d0
+        );
+
+      color: #ffffff;
+
+      text-decoration: none;
+
+      font-size: 17px;
+      font-weight: bold;
+
+      box-shadow:
+        0 7px 18px rgba(8, 125, 184, 0.25);
+
+      transition:
+        transform 0.2s ease,
+        filter 0.2s ease;
+    }
+
+    .boton:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+    }
+
+    .pie {
+      margin: 20px 0 0;
+
+      color: #748da5;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 500px) {
+      body {
+        padding: 16px;
+      }
+
+      .tarjeta {
+        padding: 26px 20px;
+      }
+
+      .logo {
+        width: 155px;
+        height: 155px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <img
-    src="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png"
-    width="180">
+  <main class="tarjeta">
 
-  <h1>Sistema de Convivencia Escolar</h1>
+    <img
+      class="logo"
+      src="https://i.postimg.cc/YCp1zdN4/logo-comite-convivencia-512.png"
+      alt="Comité de Convivencia - Institución Educativa Jorge Isaacs"
+    >
 
-  <p>Institución Educativa Jorge Isaacs</p>
+    <h1>
+      Sistema de Convivencia Escolar
+    </h1>
 
-  <a href="https://script.google.com/macros/s/AKfycbwgIgpOzg2tQPPUOUQIyhmKgBsFBXnlqhFIcfINtdiibkWQfWMnFTBfnu6l8Sisx2eD/exec">
-    Ingresar a la plataforma
-  </a>
+    <p class="institucion">
+      Institución Educativa Jorge Isaacs
+    </p>
+
+    <a
+      class="boton"
+      href="https://script.google.com/macros/s/AKfycbwgIgpOzg2tQPPUOUQIyhmKgBsFBXnlqhFIcfINtdiibkWQfWMnFTBfnu6l8Sisx2eD/exec"
+    >
+      Ingresar a la plataforma
+    </a>
+
+    <p class="pie">
+      Plataforma Institucional de Convivencia Escolar
+    </p>
+
+  </main>
 
 </body>
 </html>
